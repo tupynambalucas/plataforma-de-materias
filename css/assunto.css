@@ -1,0 +1,150 @@
+*{margin: 0px;}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: white;
+}
+
+.menu{
+  position: fixed;
+  background-color: black;
+  height: 100%;
+  width: 25%;
+  left: 0;
+  -webkit-box-shadow: 10px 0px 38px 0px rgba(0,0,0,0.26);
+  -moz-box-shadow: 10px 0px 38px 0px rgba(0,0,0,0.26);
+  box-shadow: 10px 0px 38px 0px rgba(0,0,0,0.26);
+}
+
+.menu img{
+  position: relative;
+  width: 100%;
+
+}
+
+.menu h1{
+  color: white;
+  position: relative;
+  font-size: 2vh;
+  margin: 1vw;
+}
+
+.menu p{
+  margin: 1vw;
+  color: white;
+}
+
+.caixa{
+  position: relative;
+  height: 3.5vh;
+  width: 3.5vw;
+  left: 0%;
+  top: 50%;
+  border-radius: 2vw;
+  font-size: 1.2vh;
+}
+
+.caixa p{
+  margin-top: 2vh;
+}
+
+#inicio{
+  top: 20%;
+}
+
+#imagens{
+  cursor: pointer;
+}
+
+.sec{
+  position: relative;
+  float: right;
+  width: 75%;
+  height: auto;
+  display: block;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.conteudo{
+  text-align: justify;
+  right: 20%;
+  top: 5%;
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vh;
+}
+
+.conteudo h1{
+  font-size: 5vh;
+}
+
+.conteudo p{
+  font-size: 3vh;
+  margin-top: 4vh;
+}
+
+#botao-fechar{
+  position: fixed;
+}
+
+.botao-fechar{
+  top: 5%;
+  right: 5%;
+  height: 6vh;
+  width: 3vw;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.botao-fechar svg{
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 3vh;
+  width: 1.5vw;
+}
+
+#botao-desenvolvedores{
+  position: fixed;
+}
+
+.botao-desenvolvedores{
+  background-color: black;
+  top: 85%;
+  right: 5%;
+  height: 6vh;
+  width: 3vw;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.botao-desenvolvedores svg{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 3vh;
+  width: 1.5vw;
+}
+
+.bloco{
+  position: absolute;
+  height: 10vh;
+  width: 100%;
+  background-color: #0f0f0f;
+  bottom: 0px;
+  text-align: center;
+}
+.bloco p{
+  position: relative;
+  top: 25%;
+  font-size: 1.5vh;
+}

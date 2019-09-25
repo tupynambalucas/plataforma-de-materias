@@ -1,0 +1,47 @@
+*{margin: 0px;}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+body{background-color: black;}
+
+#seta{
+  position: absolute;
+  height: 6vh;
+  width: 6vw;
+  padding: 2%;
+}
+
+.alunos{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.alunos span{
+  color: white;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+.aluno{
+  position: relative;
+  float: right;
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
+  background-color: white;
+  margin: 2.2vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#tupy{
+  background-image: url("../img/teste.jpg");
+}
