@@ -32,6 +32,7 @@ body{
 
 #slide2{
   background-image: url();
+  background-color: white;
 }
 
 .conteudo{
@@ -43,7 +44,8 @@ body{
 .conteudo p{
   margin-top: 1.5vh;
   width: 40vw;
-  font-size: 2vh;
+  font-size: 3vh;
+  color: #0f0f0f;
 }
 
 .botao-ler{
